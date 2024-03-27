@@ -1,18 +1,44 @@
 .root {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: start;
-    padding: 40px;
 }
 
-.box {
-    width: 400px;
-    height: 80px;
-    display: flex;
-    align-items: baseline;
-    column-gap: 18px;
-    flex-direction: row;
-    justify-items: center;
+.pageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+.TitleHeader {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 200;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+.logo {
+  text-transform: uppercase;
+  color: #3f6ff3;
+  font-size: 30px;
+  font-weight: 700;
+}
+.SectionContainer {
+  background-color: #ebeef5;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  flex-direction: column;
+  padding-right: 60px;
+  padding-left: 60px;
 }
 
+.SectionTitle {
+  display: flex;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 0;
+  column-gap: 12px;
+}
+.SectionSubtitle {
+  padding-left: 47px;
+  color: #898989;
+  font-size: 15px;
+}
