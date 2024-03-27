@@ -21,6 +21,9 @@ export default createBoard({
                     weight, and spacing.
                 </p>
             </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Font Family</h2>
+            </div>
         </div>
     ),
     isSnippet: true,
