@@ -11,4 +11,8 @@
   --pNormal: normal 400 12px / normal Arial, sans-serif;
   --pLight: normal 300 12px / normal Arial, sans-serif;
   --pBold: normal 700 12px / normal Arial, sans-serif;
+
+  --smallNormal: normal 400 11px / normal Arial, sans-serif;
+  --smallLight: normal 300 11px / normal Arial, sans-serif;
+  --smallBold: normal 700 11px / normal Arial, sans-serif;
 }

@@ -34,3 +34,14 @@
 .pBold {
   font: var(--pBold);
 }
+
+.smallNormal {
+  font: var(--smallNormal);
+}
+
+.smallLight {
+  font: var(--smallLight);
+}
+.smallBold {
+  font: var(--smallBold);
+}

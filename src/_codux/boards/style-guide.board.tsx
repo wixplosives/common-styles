@@ -121,6 +121,33 @@ export default createBoard({
                         </span>
                     </div>
                 </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Smaller Text</h2>
+                <div className={StyleGuide_board_module.grid}>
+                    <div>
+                        <p className={Classnames('smallNormal', StyleGuide_board_module.margin)}>
+                            Detail Text 11
+                        </p>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - Normal{' '}
+                        </span>
+                    </div>
+                    <div>
+                        <p className={Classnames('smallLight', StyleGuide_board_module.margin)}>
+                            Detail Text 11
+                        </p>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - light{' '}
+                        </span>
+                    </div>
+                    <div>
+                        <p className={Classnames('smallBold', StyleGuide_board_module.margin)}>
+                            Detail Text 11
+                        </p>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - Bold{' '}
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     ),
