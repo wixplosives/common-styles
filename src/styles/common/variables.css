@@ -3,4 +3,12 @@
   --h1Normal: normal 400 42px / normal Arial, sans-serif;
   --h1Light: normal 300 42px / normal Arial, sans-serif;
   --h1Bold: normal 700 42px / normal Arial, sans-serif;
+
+  --h2Normal: normal 400 28px / normal Arial, sans-serif;
+  --h2Light: normal 300 28px / normal Arial, sans-serif;
+  --h2Bold: normal 700 28px / normal Arial, sans-serif;
+
+  --pNormal: normal 400 12px / normal Arial, sans-serif;
+  --pLight: normal 300 12px / normal Arial, sans-serif;
+  --pBold: normal 700 12px / normal Arial, sans-serif;
 }

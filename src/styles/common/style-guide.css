@@ -12,3 +12,25 @@
 .h1Bold {
   font: var(--h1Bold);
 }
+
+.h2Normal {
+  font: var(--h2Normal);
+}
+
+.h2Light {
+  font: var(--h2Light);
+}
+.h2Bold {
+  font: var(--h2Bold);
+}
+
+.pNormal {
+  font: var(--pNormal);
+}
+
+.pLight {
+  font: var(--pLight);
+}
+.pBold {
+  font: var(--pBold);
+}
