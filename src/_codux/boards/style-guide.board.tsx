@@ -23,6 +23,23 @@ export default createBoard({
             </div>
             <div className={StyleGuide_board_module.subsectionContainer}>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Font Family</h2>
+                <div className={StyleGuide_board_module.FlexContainer}>
+                    <div className={StyleGuide_board_module.FontFamilyContainer}>
+                        <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
+                        <span>Open Sans</span>
+                    </div>
+                    <div className={StyleGuide_board_module.FontFamilyContainer}>
+                        <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
+                        <span>Open Sans</span>
+                    </div>
+                    <div className={StyleGuide_board_module.FontFamilyContainer}>
+                        <span className={StyleGuide_board_module.FontFamilyAa}>Aa</span>
+                        <span>Open Sans</span>
+                    </div>
+                </div>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Main Heading / h1</h2>
             </div>
         </div>
     ),
