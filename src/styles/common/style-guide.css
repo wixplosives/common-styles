@@ -1,3 +1,14 @@
 .checkVar {
   background-color: var(--dana-var);
 }
+
+.h1Normal {
+  font: var(--h1Normal);
+}
+
+.h1Light {
+  font: var(--h1Light);
+}
+.h1Bold {
+  font: var(--h1Bold);
+}

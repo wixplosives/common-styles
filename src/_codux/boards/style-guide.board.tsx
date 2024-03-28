@@ -1,3 +1,4 @@
+import '../../styles/common/variables.css';
 import '../../styles/common/style-guide.css';
 import { createBoard } from '@wixc3/react-board';
 import StyleGuide_board_module from './style-guide.board.module.scss';
@@ -40,6 +41,59 @@ export default createBoard({
             </div>
             <div className={StyleGuide_board_module.subsectionContainer}>
                 <h2 className={StyleGuide_board_module.subSectionTitle}>Main Heading / h1</h2>
+                <div className={StyleGuide_board_module.grid}>
+                    <div>
+                        <h1 className={Classnames('h1Normal', StyleGuide_board_module.margin)}>
+                            Heading 1
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - Normal{' '}
+                        </span>
+                    </div>
+                    <div>
+                        <h1 className={Classnames('h1Light', StyleGuide_board_module.margin)}>
+                            Heading 42
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - light{' '}
+                        </span>
+                    </div>
+                    <div>
+                        <h1 className={Classnames('h1Bold', StyleGuide_board_module.margin)}>
+                            Heading 1
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - Bold{' '}
+                        </span>
+                    </div>
+                </div>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Main Heading / h1</h2>
+                <div className={StyleGuide_board_module.grid}>
+                    <div>
+                        <h1 className={Classnames('h1Normal', StyleGuide_board_module.margin)}>
+                            Heading 1
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - Normal{' '}
+                        </span>
+                    </div>
+                    <div>
+                        <h1 className={Classnames('h1Light', StyleGuide_board_module.margin)}>
+                            Heading 42
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - light{' '}
+                        </span>
+                    </div>
+                    <div>
+                        <h1 className={Classnames('h1Bold', StyleGuide_board_module.margin)}>
+                            Heading 1
+                        </h1>
+                        <span className={StyleGuide_board_module.subtitleFontType}>
+                            Open Sans - Bold{' '}
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     ),
@@ -47,6 +101,7 @@ export default createBoard({
     environmentProps: {
         windowWidth: 1014,
         canvasWidth: 1021,
-        canvasHeight: 644,
+        canvasHeight: 1220,
+        windowHeight: 1221,
     },
 });
