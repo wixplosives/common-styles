@@ -45,3 +45,7 @@
 .smallBold {
   font: var(--smallBold);
 }
+
+.b10{
+  background-color: b10;
+}

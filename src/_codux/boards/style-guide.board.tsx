@@ -149,13 +149,39 @@ export default createBoard({
                     </div>
                 </div>
             </div>
+            <div className={StyleGuide_board_module.SectionContainer}>
+                <div className={StyleGuide_board_module.SectionTitle}>
+                    <img src="/src/assets/react.svg" />
+                    <h2>Color</h2>
+                </div>
+                <p className={StyleGuide_board_module.SectionSubtitle}>
+                    Colors are a powerful tool in design for communicating meaning and influencing
+                    user perception. Here&apos;s colors can contribute to the success of your design
+                    by conveying specific
+                </p>
+            </div>
+            <div className={StyleGuide_board_module.subsectionContainer}>
+                <h2 className={StyleGuide_board_module.subSectionTitle}>Primary / Blue</h2>
+                <div className={StyleGuide_board_module.grid1}>
+                    <div className={StyleGuide_board_module.coloContainer}>
+                        <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
+                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                    </div>
+                    <div className={StyleGuide_board_module.coloContainer}>
+                        <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
+                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                    </div>
+                </div>
+            </div>
         </div>
     ),
     isSnippet: true,
     environmentProps: {
         windowWidth: 1014,
         canvasWidth: 1021,
-        canvasHeight: 1220,
-        windowHeight: 1221,
+        canvasHeight: 1656,
+        windowHeight: 1659,
     },
 });
