@@ -169,6 +169,26 @@ export default createBoard({
                         <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
                     </div>
                     <div className={StyleGuide_board_module.coloContainer}>
+                        <div className={Classnames(StyleGuide_board_module.subColor, 'b20')}></div>
+                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                    </div>
+                    <div className={StyleGuide_board_module.coloContainer}>
+                        <div className={Classnames(StyleGuide_board_module.subColor, 'b30')}></div>
+                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                    </div>
+                    <div className={StyleGuide_board_module.coloContainer}>
+                        <div className={Classnames(StyleGuide_board_module.subColor, 'b40')}></div>
+                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                    </div>
+                    <div className={StyleGuide_board_module.coloContainer}>
+                        <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
+                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                    </div>
+                    <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
                         <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
                         <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>

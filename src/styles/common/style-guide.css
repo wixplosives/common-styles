@@ -46,6 +46,18 @@
   font: var(--smallBold);
 }
 
-.b10{
-  background-color: b10;
+.b10 {
+  background-color: var(--b10);
+}
+
+.b20 {
+  background-color: var(--b20);
+}
+
+.b30 {
+  background-color: var(--b30);
+}
+.b40 {
+    background-color: var(--b40);
+
 }
