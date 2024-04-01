@@ -46,7 +46,7 @@ export default createBoard({
                         <h1 className={Classnames('h1Normal', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - Normal{' '}
                         </span>
                     </div>
@@ -54,7 +54,7 @@ export default createBoard({
                         <h1 className={Classnames('h1Light', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - light{' '}
                         </span>
                     </div>
@@ -62,7 +62,7 @@ export default createBoard({
                         <h1 className={Classnames('h1Bold', StyleGuide_board_module.margin)}>
                             Heading 42
                         </h1>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - Bold{' '}
                         </span>
                     </div>
@@ -73,7 +73,7 @@ export default createBoard({
                         <h2 className={Classnames('h2Normal', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - Normal{' '}
                         </span>
                     </div>
@@ -81,7 +81,7 @@ export default createBoard({
                         <h2 className={Classnames('h2Light', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - light{' '}
                         </span>
                     </div>
@@ -89,7 +89,7 @@ export default createBoard({
                         <h2 className={Classnames('h2Bold', StyleGuide_board_module.margin)}>
                             Heading 28
                         </h2>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - Bold{' '}
                         </span>
                     </div>
@@ -100,7 +100,7 @@ export default createBoard({
                         <p className={Classnames('pNormal', StyleGuide_board_module.margin)}>
                             Paragraph 12
                         </p>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - Normal{' '}
                         </span>
                     </div>
@@ -135,7 +135,7 @@ export default createBoard({
                         <p className={Classnames('smallLight', StyleGuide_board_module.margin)}>
                             Detail Text 11
                         </p>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - light{' '}
                         </span>
                     </div>
@@ -143,7 +143,7 @@ export default createBoard({
                         <p className={Classnames('smallBold', StyleGuide_board_module.margin)}>
                             Detail Text 11
                         </p>
-                        <span className={StyleGuide_board_module.subtitleFontType}>
+                        <span className={StyleGuide_board_module.subtitleValue}>
                             Open Sans - Bold{' '}
                         </span>
                     </div>
@@ -165,33 +165,33 @@ export default createBoard({
                 <div className={StyleGuide_board_module.grid1}>
                     <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
-                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
-                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                        <span className={StyleGuide_board_module.subtitleValue}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleValue}>#3153AF</span>
                     </div>
                     <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b20')}></div>
-                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
-                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                        <span className={StyleGuide_board_module.subtitleValue}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleValue}>#3153AF</span>
                     </div>
                     <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b30')}></div>
-                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
-                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                        <span className={StyleGuide_board_module.subtitleValue}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleValue}>#3153AF</span>
                     </div>
                     <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b40')}></div>
-                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
-                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                        <span className={StyleGuide_board_module.subtitleValue}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleValue}>#3153AF</span>
                     </div>
                     <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
-                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
-                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                        <span className={StyleGuide_board_module.subtitleValue}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleValue}>#3153AF</span>
                     </div>
                     <div className={StyleGuide_board_module.coloContainer}>
                         <div className={Classnames(StyleGuide_board_module.subColor, 'b10')}></div>
-                        <span className={StyleGuide_board_module.subtitleFontType}>B10 </span>
-                        <span className={StyleGuide_board_module.subtitleFontType}>#3153AF</span>
+                        <span className={StyleGuide_board_module.subtitleValue}>B10 </span>
+                        <span className={StyleGuide_board_module.subtitleValue}>#3153AF</span>
                     </div>
                 </div>
             </div>
