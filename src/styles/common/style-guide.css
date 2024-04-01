@@ -1,0 +1,63 @@
+.checkVar {
+  background-color: var(--dana-var);
+}
+
+.h1Normal {
+  font: var(--h1Normal);
+}
+
+.h1Light {
+  font: var(--h1Light);
+}
+.h1Bold {
+  font: var(--h1Bold);
+}
+
+.h2Normal {
+  font: var(--h2Normal);
+}
+
+.h2Light {
+  font: var(--h2Light);
+}
+.h2Bold {
+  font: var(--h2Bold);
+}
+
+.pNormal {
+  font: var(--pNormal);
+}
+
+.pLight {
+  font: var(--pLight);
+}
+.pBold {
+  font: var(--pBold);
+}
+
+.smallNormal {
+  font: var(--smallNormal);
+}
+
+.smallLight {
+  font: var(--smallLight);
+}
+.smallBold {
+  font: var(--smallBold);
+}
+
+.b10 {
+  background-color: var(--b10);
+}
+
+.b20 {
+  background-color: var(--b20);
+}
+
+.b30 {
+  background-color: var(--b30);
+}
+.b40 {
+    background-color: var(--b40);
+
+}
